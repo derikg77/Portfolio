@@ -55,7 +55,7 @@
     height: 80px;
   }
   .nav-list a:hover {
-    color: none;
+    color: disabled;
    }
   .menu {
     padding: 10px;
