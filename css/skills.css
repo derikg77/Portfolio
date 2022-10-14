@@ -1,0 +1,56 @@
+.skill-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 50px;
+}
+.skill-section h3 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  background-color: #212121;;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+}
+.skill img {
+ height: 5rem;
+}
+.skill p {
+  font-weight: 500;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .skill-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    width: 100%;
+  }
+  
+}
+@media (max-width: 568px) {
+  .skills {
+    flex-direction: column;
+  }
+}

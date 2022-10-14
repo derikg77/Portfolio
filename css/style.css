@@ -1,0 +1,13 @@
+@import './reset.css';
+@import './menu-mobile.css';
+@import './header.css';
+@import './introduction.css';
+@import './about.css';
+@import './project.css';
+@import './services.css';
+@import './skills.css';
+@import './footer.css';
+
+#main {
+  margin: 0 auto;
+}

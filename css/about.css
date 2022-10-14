@@ -1,0 +1,85 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 1.5625rem;
+
+}
+.text-about h3 {
+  color: #fff;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.text-about p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-top: 1.875rem;
+  text-align: center;
+  line-height: 2rem;
+  width: 100%;
+  color:#828282;
+}
+.contact {
+  display: flex;
+  gap: 7rem;
+  margin-top: 85px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.contact .contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact .contact-item p {
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+.contact .contact-item span a {
+  color: #828282;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 5px;
+  text-align: center;
+}
+.contact .contact-item .emoji {
+  display: flex;
+  width: 3.875rem;
+  height: 3.875rem;
+  border-radius: 50%;
+  background-color: #212121;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width:768px) {
+  .about {
+    margin-top: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  .text-about p {
+    width: 100%;
+    text-align: center;
+  }
+  .contact {
+    width: 100%;
+    padding: 10px;
+  }
+ 
+}
+@media (max-width: 460px) {
+  .contact {
+    width: 100%;
+    flex-direction: column;
+  }
+
+}
