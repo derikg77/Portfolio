@@ -1,4 +1,4 @@
-<h1 align="center">WPortfólio</h1>
+<h1 align="center">Portfólio</h1>
 
 <div align="center" id="top">
   <img src="./img/portfolio-design.png" alt="Wood"/>
