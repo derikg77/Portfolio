@@ -46,9 +46,7 @@
   color: #fff;
   
 }
-.nav-list a:hover {
- color: #2274a9;
-}
+
 @media (max-width: 768px) {
   .header {
     width: 100%;
